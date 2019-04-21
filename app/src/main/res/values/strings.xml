@@ -1,4 +1,21 @@
 <resources>
-    <string name="app_name">SimpleWeather</string>
+    <string name="app_name">Просто Погода</string>
+    <string name="hint_name">Введите город</string>
+    <string name="sw1_pressure">Давление</string>
+    <string name="sw1_humidity">Влажность</string>
+    <string name="sw1_wind">Ветер</string>
+    <string name="sw1_precipitation">Осадки</string>
+    <string name="btn1_name">Узнать погоду</string>
+    <string name="txt_checkText">Контрольный текст</string>
+    <string name="txt_temperature">Температура</string>
+    <string name="txt_wind">Ветер</string>
+    <string name="txt_humidity">Влажность</string>
+    <string name="txt_pressure">Давление</string>
+    <string name="txt_temperatureUnit">\u00B0C</string>
+    <string name="txt_windUnit">м/с</string>
+    <string name="txt_humidityUnit">%</string>
+    <string name="txt_pressureUnit">мм. рт. ст.</string>
+    <string name="txt_precipitation0">Без осадков</string>
+    <string name="txt_precipitationRain">Дождь</string>
 
 </resources>

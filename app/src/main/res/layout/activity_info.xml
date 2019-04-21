@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_checkText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_temperature"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPlace" />
+
+    <TextView
+        android:id="@+id/textPressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_pressure"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTemperature" />
+
+    <TextView
+        android:id="@+id/textHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_humidity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPressure" />
+
+    <TextView
+        android:id="@+id/textWind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_wind"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHumidity" />
+
+    <TextView
+        android:id="@+id/textPrecipitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_checkText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWind" />
+
+    <TextView
+        android:id="@+id/textTemperatureValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/txt_checkText"
+        app:layout_constraintStart_toEndOf="@+id/textTemperature"
+        app:layout_constraintTop_toTopOf="@id/textTemperature" />
+
+    <TextView
+        android:id="@+id/textTemperatureUnits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_temperatureUnit"
+        app:layout_constraintStart_toEndOf="@+id/textTemperatureValue"
+        app:layout_constraintTop_toTopOf="@+id/textTemperatureValue" />
+
+    <TextView
+        android:id="@+id/textPressureValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/txt_checkText"
+        app:layout_constraintStart_toEndOf="@+id/textPressure"
+        app:layout_constraintTop_toTopOf="@id/textPressure" />
+
+    <TextView
+        android:id="@+id/textPressureUnits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/txt_pressureUnit"
+        app:layout_constraintStart_toEndOf="@+id/textPressureValue"
+        app:layout_constraintTop_toTopOf="@+id/textPressureValue" />
+
+    <TextView
+        android:id="@+id/textHumidityValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/txt_checkText"
+        app:layout_constraintStart_toEndOf="@+id/textHumidity"
+        app:layout_constraintTop_toTopOf="@id/textHumidity" />
+
+    <TextView
+        android:id="@+id/textHumidityUnits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/txt_humidityUnit"
+        app:layout_constraintStart_toEndOf="@+id/textHumidityValue"
+        app:layout_constraintTop_toTopOf="@+id/textHumidityValue" />
+
+</android.support.constraint.ConstraintLayout>
