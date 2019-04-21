@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Просто Погода</string>
+    <string name="hint_name">Введите город</string>
+    <string name="sw1_pressure">Давление</string>
+    <string name="sw1_humidity">Влажность</string>
+    <string name="sw1_wind">Ветер</string>
+    <string name="sw1_precipitation">Осадки</string>
+    <string name="btn1_name">Узнать погоду</string>
+    <string name="txt_checkText">Контрольный текст</string>
+    <string name="txt_temperature">Температура</string>
+    <string name="txt_wind">Ветер</string>
+    <string name="txt_humidity">Влажность</string>
+    <string name="txt_pressure">Давление</string>
+    <string name="txt_temperatureUnit">\u00B0C</string>
+    <string name="txt_windUnit">м/с</string>
+    <string name="txt_humidityUnit">%</string>
+    <string name="txt_pressureUnit">мм. рт. ст.</string>
+    <string name="txt_precipitation_0">Без осадков</string>
+    <string name="txt_precipitation_1">Временами дождь</string>
+    <string name="txt_precipitation_2">Дождь</string>
+    <string name="txt_precipitation_3">Снег с дождём</string>
+    <string name="txt_precipitation_4">Временами снег</string>
+    <string name="txt_precipitation_5">Снег</string>
+    <string name="txt_precipitation_6">Возможен град</string>
+    <string name="txt_wind_0">восточный</string>
+    <string name="txt_wind45">северо-восточный</string>
+    <string name="txt_wind90">северный</string>
+    <string name="txt_wind135">северо-западный</string>
+    <string name="txt_wind180">западный</string>
+    <string name="txt_wind225">юго-западный</string>
+    <string name="txt_wind270">южный</string>
+    <string name="txt_wind315">юго-восточный</string>
+</resources>
