@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/pogoda"
     tools:context=".MainActivity">
 
     <EditText
@@ -16,6 +17,7 @@
         android:ems="10"
         android:hint="@string/hint_name"
         android:inputType="textCapCharacters"
+        style="@style/WeatherText"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,6 +29,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="@string/sw1_pressure"
+        style="@style/WeatherText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPlace" />
 
@@ -37,6 +40,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="@string/sw1_humidity"
+        style="@style/WeatherText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/switchPressure" />
 
@@ -47,6 +51,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="@string/sw1_wind"
+        style="@style/WeatherText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/switchHumidity" />
 
@@ -57,6 +62,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="@string/sw1_precipitation"
+        style="@style/WeatherText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/switchWind" />
 
